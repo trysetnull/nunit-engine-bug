@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectService", "AspectService\AspectService.csproj", "{5C97C6E2-4BC7-4C87-A95C-4DE1026B72B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectService.Tests", "AspectService.Tests\AspectService.Tests.csproj", "{D8465EB4-57D3-4EAA-AD2E-04255A4D9B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectInterfaces", "AspectInterfaces\AspectInterfaces.csproj", "{2C23B5E8-40A5-43DC-8745-29514DA8596F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C97C6E2-4BC7-4C87-A95C-4DE1026B72B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C97C6E2-4BC7-4C87-A95C-4DE1026B72B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C97C6E2-4BC7-4C87-A95C-4DE1026B72B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C97C6E2-4BC7-4C87-A95C-4DE1026B72B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8465EB4-57D3-4EAA-AD2E-04255A4D9B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8465EB4-57D3-4EAA-AD2E-04255A4D9B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8465EB4-57D3-4EAA-AD2E-04255A4D9B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8465EB4-57D3-4EAA-AD2E-04255A4D9B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C23B5E8-40A5-43DC-8745-29514DA8596F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C23B5E8-40A5-43DC-8745-29514DA8596F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C23B5E8-40A5-43DC-8745-29514DA8596F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C23B5E8-40A5-43DC-8745-29514DA8596F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

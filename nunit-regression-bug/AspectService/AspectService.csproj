@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="4.2.2" Private="all" />
+    <!-- Versions that work: 3.18.1 and 3.18.2 -->
+    <!-- Versions that *don't* work: 3.18.3    -->
+    <PackageReference Include="NUnit.Engine" Version="3.18.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" Private="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspectInterfaces\AspectInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>
