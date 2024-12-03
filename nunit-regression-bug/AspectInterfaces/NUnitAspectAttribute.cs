@@ -1,4 +1,4 @@
-﻿namespace AspectInterfaces;
+namespace AspectInterfaces;
 
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
